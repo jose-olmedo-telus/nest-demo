@@ -1,7 +1,7 @@
 import { Task, TaskStatus } from '../tasks-model';
 
 class CreateTaskDto implements Pick<Task, 'title' | 'description'> {
-  title: String;
-  description: String;
+  title: string;
+  description: string;
 }
 export default CreateTaskDto;
